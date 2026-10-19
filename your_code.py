@@ -1,8 +1,8 @@
 import requests
 
 # Hugging Face API configuration
-API_URL = "https://api-inference.huggingface.co/models/bigcode/starcoder"
-API_TOKEN = "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"  # Replace with your token
+API_URL = ""
+API_TOKEN = ""  # Replace with your token
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
 def fix_code(code_with_bug):
